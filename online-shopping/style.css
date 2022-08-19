@@ -1,0 +1,821 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.top{
+    position: relative;
+    top: 0%;
+    left: 0%;
+   max-width: 100%;
+    height: 2.5em;
+    background: rgba(0, 0, 255, 0.079);
+}
+.left{
+    top: 0%;
+    left: 5%;
+    margin: 10px;
+    position: absolute;
+}
+.left ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.line{
+    width: 1px;
+    height: 12px;
+    background-color: grey;
+}
+.left ul li a{
+    text-decoration: none;
+    color: grey;
+    padding: 0.3em;
+    font-size: 12px;
+}.left ul li a img{
+    width: 20px;
+    height: 19px;
+}
+.left ul li a:hover{
+    color: orangered;
+}
+.right{
+    top: 0%;
+    right: 6%;
+    margin: 10px;
+    position: absolute;
+}
+.right ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.right ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 0.3em;
+}
+.right ul li a:hover{
+    color: orangered;
+}
+.main{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    max-width: 100%;
+    height: 6em;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.nav{
+    top: 0%;
+    left: 5%;
+    margin: 10px;
+    position: absolute;
+}
+.nav img{
+    width: 250px;
+}
+.search{
+    top: 10%;
+    left: 28%;
+    margin: 10px;
+    position: absolute;
+}
+.search img{
+    width: 18px;
+
+}
+.search input{
+    border: 2px solid orangered;
+    width: 30em;
+    height: 1.7em;
+    border-radius: 10px;
+    color: gray;
+}
+.links{
+    top: 38%;
+    left: 28%;
+    margin: 10px;
+    position: absolute;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    color: gray;
+    font-size: 12px;
+}
+.links ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+    margin: 3px;
+}
+.links ul li a:hover{
+    color: orangered;
+}
+.icon{
+    top:10% ;
+    right: 6%;
+    margin: 20px;
+    position: absolute;
+}
+.icon ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+#num1 img{
+    width: 20px;
+}
+.icon ul li a{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+.icon ul li a:hover{
+    color: orangered;
+}
+#num1{
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px 2px white;
+    border-radius:5px;
+
+}
+#num1:hover .dropdown-content{
+    display: block;
+    background-color: white;
+    width: 19em;
+    height: 7em;
+}
+.dropdown-content h3{
+    font-size: 13px;
+    font-weight: lighter;
+    color: black;
+    margin-top:5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.dropdown-content input{
+    color: gray;
+    margin-left: 8px;
+    border: 1px solid white;
+    margin-bottom: 5px;
+}
+.dropdown-content button{
+    color: white;
+    background: orangered;
+    margin-left: 5px;
+    border: 1px solid orangered;
+    width: 15em;
+    height: 1.9em;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.dropdown-content button:hover{
+    color: orangered;
+    background: white;
+    border: 1px solid orangered;
+}
+.dropdown-content2{
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    z-index: 3;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px white;
+}
+#num1:hover .dropdown-content2{
+    display: block;
+    background: white;
+    width: 7em;
+   
+
+}
+.dropdown-content2 a{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+     margin-left: 10px;
+}
+.dropdown-content2 img{
+    width: 2px;
+}
+.rectangle{
+    height: 15em;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    max-width: 100%;
+    
+}
+.rectangle img{
+    width: 100%;
+    height: 15em;
+    
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left:36%;
+}
+.title h3{
+    color: black;
+    font-style: italic;
+    font-size: 26px;
+    font-weight: normal;
+}
+.push{
+    position: absolute;
+    left:10%;
+    top:60%;
+    margin: 0;
+}
+.push ul li{
+    position: relative;
+    display: inline-block;
+   
+    
+}
+.buttons{
+    border: 1px solid orangered;
+    width: 12em;
+    max-height: 3em;
+    padding: 1em;
+    background: orangered;
+    color: white;
+    font-size: 17px;
+
+}
+.buttons1{
+    border-bottom: 1px solid orangered;
+    background: white;
+    width: 12em;
+    max-height: 3em;
+    padding: 1em;
+    color: gray;
+    font-size: 17px;
+
+}
+.buttons button{
+    background: orangered;
+    color: white;
+    font-size: 12px;
+    width: 6em;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.buttons1 button{
+    background: white;
+    color: grey;
+    font-size: 13px;
+    width: 6em;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    height: 18px;
+}
+.large{
+    max-width: 100%;
+    height: 55em;
+    position: relative;
+    background: rgba(0, 0, 255, 0.079);
+    top: 0%;
+    left: 0%;
+}
+.earphones{
+    left: 3%;
+    height: 24em;
+    top: 4%;
+    position: absolute;
+    width: 14em;
+    background: white;
+}
+.earphones img{
+    width: 100%;
+    height: 15em;
+}
+.earphones p{
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.shoes{
+    left: 25%;
+    height: 24em;
+    top: 4%;
+    position: absolute;
+    width: 14em;
+    background: white;
+}
+.shoes img{
+    width: 100%;
+    height: 15em;
+}
+.shoes p{
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.computers{
+    left: 47%;
+    height: 24em;
+    top: 4%;
+    position: absolute;
+    width: 14em;
+    background: white;
+}
+.computers img{
+    width: 100%;
+    height: 15em;
+}
+.computers p{
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.watch{
+    left: 69%;
+    height: 24em;
+    top: 4%;
+    position: absolute;
+    width: 14em;
+    background: white;
+}
+.watch img{
+    width: 100%;
+    height: 15em;
+}
+.watch p{
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.furniture{
+    left: 3%;
+    height: 24em;
+    top:52%;
+    position: absolute;
+    width: 14em;
+    background: white;
+}
+.furniture img{
+    width: 100%;
+    height: 15em;
+}
+.furniture p{
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.flash{
+    left: 25%;
+    height: 24em;
+    top:52%;
+    position: absolute;
+    width: 14em;
+    background: white;
+}
+.flash img{
+    width: 100%;
+    height: 15em;
+}
+.flash p{
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.dresses{
+    left: 47%;
+    height: 24em;
+    top:52%;
+    position: absolute;
+    width: 14em;
+    background: white;
+}
+.dresses img{
+    width: 100%;
+    height: 15em;
+}
+.dresses p{
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.bold{
+    position: absolute;
+    height: 11px;
+    width: 100%;
+    background: orangered;
+    top: 70%;
+    left: 0%;
+    margin-top: 10px;
+}
+.price{
+    position: absolute;
+    top:78%;
+    color: red;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.save{
+    position: absolute;
+    top: 78%;
+    right: 0%;
+    color: white;
+    
+    width: 8em;
+    background: orangered;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.now{
+    position: absolute;
+    top:86%;
+    left: 0%;
+   width: 13.7em;
+    height: 2em;
+    border: 1px solid orangered;
+    background: orangered;
+}
+.now a{
+    padding: 4em;
+    margin-top: 14px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sub-nav{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    height: 2.5em;
+    width: 100%;
+    background: rgba(0, 0, 255, 0.079);
+}
+.sub-nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    top: 0%;
+    left: 6%;
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+}
+.sub-nav ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+
+}
+.sub-nav ul li a:hover{
+    color: orangered;
+}
+.store{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background: rgba(0, 0, 255, 0.079);
+    width: 100%;
+    height: 40em;
+}
+.goods{
+    position: absolute;
+    width:90%;
+    left: 5%;
+    top: 0%;
+    height: 38em;
+    background: white;
+}
+.accessories{
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    top: 0%;
+    left: 0%;
+}
+.accessories img{
+    width: 100%;
+    height:20em ;
+}
+.payment{
+    position: absolute;
+    width: 60%;
+    height: 6em;
+    top: 0%;
+    right: 0%;
+}
+.payment p{
+    margin-left: 19px;
+    margin-top: 20px;
+}
+.payment ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 2.6%;
+    color: goldenrod;
+}
+.payment ul li a{
+    color: rgba(0, 0, 255, 0.799);
+    text-decoration: none;
+    margin-left: 5px;
+}
+.payment ul li img{
+    width: 13px;
+    margin-top: 6px;
+}
+.off-price{
+    position: absolute;
+    width: 48%;
+    right: 10%;
+    top: 20%;
+    height: 2.3em;
+    background: rgba(0, 0, 255, 0.079);
+}
+.off-price ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 0.5em;
+}
+.original{
+    color: orangered;
+    font-size: 19px;
+}
+.cut{
+    position:absolute;
+    width: 4.2em;
+    margin-top: 10px;
+    height: 1px;
+    background: grey;
+}
+.discount{
+    color: gray;
+}
+.off-price ul li button{
+    color: white;
+    background: orangered;
+    border: 1px solid orangered;
+    width: 5em;
+    height: 1.6em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.vouchers{
+    position: absolute;
+    top: 27%;
+    right: 10%;
+}
+.vouchers ul li {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 0.5em;
+    color: gray;
+    font-size: 13px;
+}
+.vouchers ul li button{
+    color: orangered;
+    background: rgba(0, 0, 255, 0.079);
+    border: 1px solid rgba(0, 0, 255, 0.079);
+}
+.vouchers ul li a{
+    color: orangered;
+    text-decoration: none;
+}
+.shipping{
+    position: absolute;
+    top: 32%;
+    right: 33.5%;
+}
+.shipping ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 0.5em;
+    color: black;
+    font-size: 13px;
+}
+.shipping ul li img{
+    width: 16px;
+}
+.type{
+    position: absolute;
+    top: 38%;
+    right: 49%;
+}
+.type ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 0.5em;
+    color: black;
+    font-size: 13px;
+}
+.type ul li input{
+    width: 3em;
+    height: 1.8em;
+    border: 1px solid orangered;
+    
+}
+.quantity{
+    position: absolute;
+    top: 46%;
+    right: 42%;
+}
+.quantity ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 0.5em;
+    color: black;
+    font-size: 13px;
+}
+.quantity ul li button{
+    background: rgba(0, 0, 255, 0.079);
+    border: 1px solid orangered;
+    width: 2.2em;
+    height: 1.8em;
+    border-radius: 5px;
+}
+.quantity ul li input{
+    width: 4.7em;
+    height: 1.4em;
+}
+.purchase{
+    position: absolute;
+    top: 54%;
+    right: 30%;
+}
+.purchase ul li{
+    position: relative;
+    padding: 0.5em;
+    display: inline-block;
+}
+.purchase ul li input{
+    width: 10em;
+    height: 2em;
+}
+.purchase ul li button{
+    width: 6em;
+    height: 2.4em;
+    background: orangered;
+    color: white;
+    border: 1px solid orangered;
+    cursor: pointer;
+}
+.end{
+    position: absolute;
+    top: 64%;
+    right: 9%;
+    width: 50%;
+    height: 1px;
+    background:gray;
+
+}
+.footer{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color:white;
+    width: 100%;
+    height: 13em;
+}
+.guide{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+}
+.guide ul li{
+    position: relative;
+    display: block;
+    list-style: none;
+}
+.with{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.guide ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+.guide ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.help{
+    position: absolute;
+    top: 8%;
+    left: 20%;
+}
+.help ul li{
+    position: relative;
+    display: block;
+    list-style: none;
+}
+.help ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+} 
+.help ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.business{
+    position: absolute;
+    top: 8%;
+    left: 37%;
+}
+.business ul li{
+    position: relative;
+    display: block;
+    list-style: none;
+}
+.business ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+.business ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.international{
+    position: absolute;
+    top: 8%;
+    left: 55%;
+}
+.international ul li{
+    position: relative;
+    display: block;
+    list-style: none;
+}
+.international ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+.international ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.connected{
+    position: absolute;
+    top: 8%;
+    left: 70%;
+}
+.connected ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+}
+.connected ul li img{
+    width: 20px;
+}
+.connected p{
+    position: relative;
+    font-size: 12px;
+}
+.connected button{
+    position: relative;
+    font-size: 12px;
+    border: 1px solid black;
+    cursor: pointer;
+    height: 1.8em;
+    width: 8em;
+}
+.connected button img{
+    width: 17px;
+    height: 12px;
+}
+.in{
+    position: absolute;
+    width: 50%;
+    height: 1.8em;
+    background: orangered;
+    color: white;
+    top: 28%;
+    right: 8%;
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top">
+        <div class="left">
+            <ul>
+                <li><a href="">Seller Center</a></li>
+                <li class="line"></li>
+                <li><a href=""><img src="images/smartphone.png" alt=""> App Download</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="">Track Order</a></li>
+                <li><a href="">Help Center</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="nav">
+            <img src="images/kilimall.png" alt="">
+        </div>
+        <div class="search">
+            <img src="images/magnifying-glass.png" alt="">
+            <input type="text"  placeholder="  Iam looking for"> 
+        </div>
+        <div class="links">
+            <ul>
+                <li>Top Searches:</li>
+                <li><a href="">handbags</a></li>
+                <li><a href="">shoes</a></li>
+                <li><a href="">dresses</a></li>
+                <li><a href="">wigs</a></li>
+                <li><a href="">watches</a></li>
+                <li><a href="">phones</a></li>
+                <li><a href="">fridge</a></li>
+                <li><a href="">plates</a></li>
+                <li><a href="">bags</a></li>
+                <li><a href="">sneakers</a></li>
+            </ul>
+        </div>
+        <div class="icon">
+            <ul>
+                <li id="num1"><a href=""><img src="images/shopping-cart.png" alt=""> Cart
+                    <div class="dropdown-content">
+                        <h3>The Latest Addition</h3>
+                        <input type="text" placeholder="No item in your cart" id="num5"> <br>
+                        <button>View My Cart</button>
+                    </div>
+                </a></li>
+                <li id="num1"><a href=""><img src="images/user.png" alt="">My Account
+                 <div class="dropdown-content2">
+                    <a href=""><img src="images/box.png" alt="">  Orders</a>
+                    <a href=""><img src="images/heart.png" alt="">  Favorites</a>
+                    <a href=""><img src="images/coupon.png" alt="">  Coupons</a>
+                    <a href=""><img src="images/bell.png" alt="">  Message</a>
+                    <a href=""><img src="images/user.png" alt="">  Login</a>
+                 </div>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sub-nav">
+        <ul>
+            <li><a href="index.html">Home ></a></li>
+            <li><a href="">Bags & Fashion ></a></li>
+            <li><a href="">Men's Fashion & Accessories ></a></li>
+            <li><a href="">Watches ></a></li>
+            <li>NAVIFORCE Watch...</li>
+        </ul>
+    </div>
+    <div class="store">
+        <div class="goods">
+            <div class="accessories">
+                <img src="images/watch.jpg" alt="">
+            </div>
+            <div class="payment">
+                <p>NAVIFORCE Watch Men Men Watches Full Brass <br> Waterproof Casual Quartz Date Sport Military WristWatch <br> 2 one size</p>
+                <ul>
+                    <li><img src="images/star.png" alt=""></li>
+                    <li><img src="images/star.png" alt=""></li>
+                    <li><img src="images/star.png" alt=""></li>
+                    <li><img src="images/star.png" alt=""></li>
+                    <li><img src="images/rating.png" alt=""></li>
+                    <li>4.6</li>
+                    <li><a href="">102 Customers reviews</a></li>
+                </ul>
+            </div>
+            <div class="off-price">
+                <ul>
+                    <li class="original" id="num4">KSh 1599</li>
+                    <li class="discount"><div class="cut"></div>KSh 2999</li>
+                    <li><button>46 % OFF</button></li>
+                </ul>
+            </div>
+            <div class="vouchers">
+                <ul>
+                    <li>Store Vouchers:</li>
+                    <li><button>KSh 10 0ff</button></li>
+                    <li><button>KSh 20 0ff</button></li>
+                    <li><button>KSh 50 0ff</button></li>
+                    <li><button>KSh 100 0ff</button></li>
+                    <li><a href="">Get Now></a></li>
+                </ul>
+            </div>
+            <div class="shipping">
+                <ul>
+                    <li>Shipping From:</li>
+                    <li><img src="images/light.png" alt=""></li>
+                    <li>Fulfilled by Kilimall</li>
+                </ul>
+            </div>
+            <div class="type">
+                <ul>
+                    <li>Color:</li>
+                    <li><input type="text"></li>
+                </ul>
+            </div>
+            <div class="quantity">
+                <ul>
+                    <li>Qty:  </li>
+                    <li><button onclick="subtract2()">-</button><input type="text" id="num7"><button onclick="add2()">+</button></li>
+                </ul>
+            </div>
+             <div class="purchase">
+                <ul>
+                    <li><input type="text" id="num8"></li>
+                    <li><button>Buy Now</button></li>
+                </ul>
+            </div>
+            <div class="end">
+
+            </div>
+        </div>
+
+        
+    </div>
+    <div class="footer">
+        <div class="guide">
+            <ul>
+                <li class="with">Shopping Guide</li>
+                <br>
+                <li><a href="">How to Register</a></li>
+                <li><a href="">Register on Kilimall App</a></li>
+                <li><a href="">Forgot Password</a></li>
+            </ul>
+        </div>
+        <div class="help">
+            <ul>
+                <li class="with">Kilimall Privacy policy</li>
+                <br>
+                <li><a href="">After Sale Policy</a></li>
+                <li><a href="">Delivery and Shipping</a></li>
+                <li><a href="">How do I pay on Kilimall</a></li>
+                <li><a href="">Order</a></li>
+                <li><a href="">Account Settings</a></li>
+                <li><a href="">FAQ Center</a></li>
+            </ul>
+        </div>
+        <div class="business">
+            <ul>
+                <li class="with">Shopping Guide</li>
+                <br>
+                <li><a href="">Want to be a seller</a></li>
+                <li><a href="">Sell Center</a></li>
+                <li><a href="">Kilishop</a></li>
+            </ul>
+        </div>
+        <div class="international">
+            <ul>
+                <li class="with">Kilimall International</li>
+                <br>
+                <li><a href="">Kilimall Lite</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Kenya</a></li>
+            </ul>
+        </div>
+        <div class="connected">
+            <ul>
+                <li class="with">Stay Connected:</li>
+                <br><br>
+                <li><img src="images/facebook-app-symbol.png" alt="">  </li>
+                <li>  <img src="images/twitter.png" alt="">  </li>
+                <li>  <img src="images/whatsapp.png" alt="">  </li>
+                <li>       <img src="images/telegram.png" alt="">  </li>
+            </ul>
+            <br>
+            <p>Get Shopping App and Earn Millions <br> of Cash Rewards</p>
+            <br>
+            <button><img src="images/android-logo.png" alt="">   Google Play</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
